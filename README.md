@@ -1,23 +1,22 @@
 # ClearBank — Análise Financeira com Python
 
-Desafio final do módulo de Python para análise de dados. O notebook lê um
-histórico de transações em CSV (que chega com erros), valida e limpa os dados,
-calcula métricas financeiras mensais, sinaliza transações suspeitas, exibe um
-relatório no terminal e exporta o resultado em JSON.
+Desafio final do módulo "Análise de Dados e Inteligência de Negócios com IA".
+O notebook lê um histórico de transações em CSV valida e limpa os dados, calcula métricas financeiras mensais sinaliza transações suspeitas, exibe um relatório no terminal e exporta o resultado em JSON.
+Planilha 'transacoes' contendo erros.
 
 ## Arquivos
 
-| Arquivo | Descrição |
-|---------|-----------|
-| `desafio-final.ipynb` | Notebook com o código (organizado em funções) e as saídas salvas |
-| `transacoes.csv` | Arquivo de entrada (17 válidos, 5 inválidos, 2 acima de R$ 10.000) |
-| `relatorio.json` | Saída gerada pelo notebook |
+| Arquivo               | Descrição                                                          |
+| --------------------- | ------------------------------------------------------------------ |
+| `desafio-clearbank.ipynb` | Notebook com o código (organizado em funções) e as saídas salvas   |
+| `transacoes.csv`      | Arquivo de entrada (17 válidos, 5 inválidos, 2 acima de R$ 10.000) |
+| `relatorio.json`      | Saída gerada pelo notebook                                         |
 
 ## Como executar
 
-1. Abra `desafio-final.ipynb` no Google Colab ou Jupyter (Python 3.10+).
+1. Abra `desafio-clearbank.ipynb` no Google Colab ou Jupyter (Python 3.10+).
 2. Garanta que `transacoes.csv` esteja na mesma pasta.
-3. Execute todas as células (no Colab: *Ambiente de execução → Executar tudo*).
+3. Execute todas as células (no Colab: _Ambiente de execução → Executar tudo_).
 4. O relatório aparece na saída da célula de execução principal e o arquivo
    `relatorio.json` é gerado na pasta.
 
