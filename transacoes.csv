@@ -1,0 +1,23 @@
+id,data,cliente_id,tipo,valor,descricao,categoria
+1,2026-01-05,CLI001,credito,3500.00,Salario janeiro,salario
+2,2026-01-12,CLI002,debito,180.50,Supermercado,compra
+3,2026-01-20,CLI001,debito,420.00,Conta de luz,conta
+4,2026-01-25,CLI003,credito,12000.00,Bonus anual,salario
+5,2026-02-03,CLI002,debito,200.00,Transferencia mensal,transferencia
+6,2026-02-14,CLI003,credito,15000.00,Transferencia suspeita,transferencia
+7,2026-02-18,CLI002,debito,320.00,Conta de luz,conta
+8,2026-02-22,CLI001,credito,3500.00,Salario fevereiro,salario
+9,2026-02-27,CLI004,debito,89.90,Streaming,assinatura
+10,2026-03-01,CLI001,credito,3500.00,Salario marco,salario
+11,2026-03-10,CLI003,debito,99.90,Streaming,assinatura
+12,2026-03-15,CLI002,debito,1500.00,Aluguel,moradia
+13,2026-03-18,CLI004,credito,250.00,Reembolso,transferencia
+14,2026-03-25,CLI001,debito,640.30,Mercado,compra
+15,2026-04-02,CLI002,credito,4200.00,Salario abril,salario
+16,2026-04-08,CLI003,debito,75.00,Farmacia,compra
+17,2026-04-19,CLI004,debito,310.00,Internet,conta
+18,2026-04-22,CLI001,debito,abc,Valor invalido,compra
+xx,2026-04-23,CLI002,credito,500.00,Id invalido,salario
+20,2026-04-24,,debito,200.00,Sem cliente,transferencia
+21,15-05-2026,CLI003,credito,800.00,Data invalida,salario
+22,2026-04-26,CLI004,debito,-50.00,Valor negativo,compra
